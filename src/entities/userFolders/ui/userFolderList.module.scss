@@ -1,0 +1,53 @@
+/* first way to define color for buttons */
+//:root {
+//    --vkui--color_background_accent_themed: rgba(51, 117, 246, 1);
+//    --vkui--color_background_positive: rgba(255, 57, 133, 1);
+//    --vkui--color_background_negative: rgba(235, 66, 80, 1);
+//    --vkui--color_background_secondary: rgba(85, 103, 125, 1);
+//    --vkui--color_background_contrast: rgba(128, 36, 192, 1);
+//}
+
+/* two way to define color for buttons */
+.button_accent {
+  background: rgba(51, 117, 246, 1) !important;
+}
+.button_positive {
+  background: rgba(255, 57, 133, 1) !important;
+}
+.button_negative {
+  background: rgba(235, 66, 80, 1) !important;
+}
+.button_neutral {
+  background: rgba(85, 103, 125, 1) !important;
+}
+.button_accent_invariable {
+  background: rgba(128, 36, 192, 1) !important;
+}
+
+
+.list {
+  background: rgba(247, 248, 250, 1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(51, 51, 51, 1);
+  border-radius: var(--vkui--size_border_radius--regular);
+
+  &:hover {
+    background: rgba(244, 228, 255, 1);
+    cursor: pointer;
+    color: rgba(128, 36, 192, 1);
+  }
+}
+
+.listPart {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.headerButton {
+  background: rgba(128, 36, 192, 1);
+  color: rgba(255, 255, 255, 1);
+}
