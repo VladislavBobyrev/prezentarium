@@ -1,0 +1,11 @@
+.modal_header {
+  grid-template-columns: 1fr auto;
+  display: grid;
+  align-items: center;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}

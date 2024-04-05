@@ -1,1 +1,1 @@
-export * from './ui/UserFoldersList.tsx'
+export { addUserFolders } from './model/addUserFolders.ts'
